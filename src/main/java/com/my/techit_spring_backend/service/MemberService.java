@@ -14,4 +14,6 @@ public interface MemberService {
     public Member update(Long id, Member member);
     public void delete(Long id);
 
+    public Optional<Member> findByMemberCode(String memberCode);
+
 }
